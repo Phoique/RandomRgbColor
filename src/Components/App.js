@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Button from './Button/Button';
 
 class App extends Component {
   render() {
     return (
     <div>
       <p>
-        Hello world
+        <Button />
       </p>
     </div>);
   }
