@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import './color.css';
 import Color from './color';
 
-export class RgbRandom extends Component {
+class RgbRandom extends Component {
+
   Random() {
     let r = Math.floor(Math.random() * 256);
     let g = Math.floor(Math.random() * 256);
-    let b = Math.floor(Math.random() * 256);
+    let b = Math.floor(Math.random() * 256)
     return(`rgb(${r}, ${g}, ${b})`);
   }
 
@@ -16,13 +17,19 @@ export class RgbRandom extends Component {
   }
 
   render() {
+
+    let rgbArray = [];
+    for (let i = 0; i < 20; i++) {
+      let randomFunction = this.Random();
+      rgbArray.push(randomFunction);
+    }
+    
     return (
+      
       <div>
       {
-        [...Array(20)].map((x, i) =>
-          <Color key = {i} rgbColor = {this.Random()}/>
-        )
-        }
+        <Color rgbColor = {rgbArray}/>
+      }
       </div>
     )
   }

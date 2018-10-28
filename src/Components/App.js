@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Button from './Button/Button';
+import Button from './RefreshButton/Button';
 import RgbRandom from './Color/rgbRandom';
 
 class App extends Component {
+
   render() {
+    
     return (
     <div>
       <div className='button-center'>

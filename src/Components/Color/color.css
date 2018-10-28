@@ -6,4 +6,10 @@
   height: 100px;
   width: 100px;
   margin: 15px;
+  border: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
 }
