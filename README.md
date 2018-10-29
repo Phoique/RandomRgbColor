@@ -3,6 +3,7 @@ Random rgb colors with react.
 
 ## Demo
 Surge.sh: [http://randomrgb.surge.sh](http://randomrgb.surge.sh)
+
 ## Install
 `npm install`
 
