@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './button.css';
-import RgbRandom from '../Color/rgbRandom';
 
 class Button extends Component {
 

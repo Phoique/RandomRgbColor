@@ -2,14 +2,19 @@
   position: absolute;
   top: 150px;
 }
-.color-button {
-  height: 100px;
-  width: 100px;
+.color-div {
+  height: 130px;
+  width: 130px;
   margin: 15px;
   border: none;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
+  float:left;
+  text-align: center;
+}
+
+.color-code {
+  position: relative;
+  top: 30%;
 }

@@ -19,7 +19,7 @@ class RgbRandom extends Component {
   render() {
 
     let rgbArray = [];
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 24; i++) {
       let randomFunction = this.Random();
       rgbArray.push(randomFunction);
     }
