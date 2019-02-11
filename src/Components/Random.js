@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Color from './Color';
 
-class RgbRandom extends Component {
+class Random extends Component {
 
   constructor(props) {
     super(props);
@@ -24,15 +24,14 @@ class RgbRandom extends Component {
     }
     
     return (
-      
       <div>
-      {
-        <Color rgbColor = {rgbArray}/>
-      }
+        {
+          rgbArray.map((color, key) => <Color key={key} color={color} /> )
+        }
       </div>
-    )
+    );
   }
 }
 
-export default RgbRandom;
+export default Random;
 
