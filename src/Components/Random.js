@@ -3,23 +3,23 @@ import Color from './Color';
 
 class RgbRandom extends Component {
 
-  Random() {
+  constructor(props) {
+    super(props);
+    this.randomCode = this.randomCode.bind(this);
+  }
+
+  randomCode() {
     let r = Math.floor(Math.random() * 256);
     let g = Math.floor(Math.random() * 256);
     let b = Math.floor(Math.random() * 256)
     return(`rgb(${r}, ${g}, ${b})`);
   }
 
-  constructor(props) {
-    super(props);
-    this.Random = this.Random.bind(this);
-  }
-
   render() {
 
     let rgbArray = [];
     for (let i = 0; i < 24; i++) {
-      let randomFunction = this.Random();
+      let randomFunction = this.randomCode();
       rgbArray.push(randomFunction);
     }
     
