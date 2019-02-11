@@ -1,13 +1,13 @@
 import React from 'react';
 
-const onReload = () => {
-  window.location.reload();
-}
-
 const Button = () => {
   return (
     <div className='center'>
-      <button className='button' onClick= {onReload}>Random Color</button>
+      <button 
+      className='button' 
+      onClick= {() => window.location.reload()}>
+      Random Color
+      </button>
     </div>
   )
 }
