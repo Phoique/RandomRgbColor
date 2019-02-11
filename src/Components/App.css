@@ -1,6 +1,9 @@
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .button-center {
-    margin-left: 45%;
-    margin-right:10%;
-    position: absolute;
-    top: 5%;
-  }
+  margin-left: 40%;
+  margin-right: 40%;
+}
