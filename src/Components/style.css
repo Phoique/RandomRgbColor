@@ -1,3 +1,17 @@
+/* App component */
+
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.button-center {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+/* Button component */
+
 .button {
   position: relative;
   background-color: #4CAF50;
@@ -32,4 +46,27 @@
   margin: 0;
   opacity: 1;
   transition: 0s
+}
+
+/* Color component */
+
+.align {
+  position: relative;
+  top: 50px;
+}
+.color-div {
+  height: 130px;
+  width: 130px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: none;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  float:left;
+  text-align: center;
+}
+
+.color-code {
+  position: relative;
+  top: 30%;
 }

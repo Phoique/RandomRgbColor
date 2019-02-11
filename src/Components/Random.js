@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './color.css';
-import Color from './color';
+import Color from './Color';
 
 class RgbRandom extends Component {
 

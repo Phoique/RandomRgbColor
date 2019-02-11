@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './color.css';
 
 class Color extends Component {
 

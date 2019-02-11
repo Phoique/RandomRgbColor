@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import Button from './RefreshButton/Button';
-import RgbRandom from './Color/rgbRandom';
+import Button from './Button';
+import RgbRandom from './Random';
+import './style.css';
 
 class App extends Component {
 
@@ -12,10 +12,9 @@ class App extends Component {
       <div className='button-center'>
         <Button />
       </div>
-      <div>
       <RgbRandom />
-      </div>
-    </div>);
+    </div>
+    );
   }
 }
 
