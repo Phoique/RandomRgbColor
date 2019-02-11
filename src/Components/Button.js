@@ -1,23 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Button extends Component {
+const onReload = () => {
+  window.location.reload();
+}
 
-  constructor(props) {
-    super(props);
-    this.onChange = this.onChange.bind(this);
-  }
-
-  onChange() {
-    window.location.reload();
-  }
-
-  render() {
-
-    return (
+const Button = () => {
+  return (
     <div className='center'>
-      <button className='button' onClick= {this.onChange}>Random Color</button>
-    </div>);
-  }
+      <button className='button' onClick= {onReload}>Random Color</button>
+    </div>
+  )
 }
 
 export default Button;
